@@ -1,0 +1,26 @@
+/* Bootstrap overriding */
+
+.nav-link:not(.active) {
+    background-color: unset !important;
+    color: white !important;
+    transition: background-color 100ms ease-in, color 100ms ease-in !important;
+}
+
+.nav-link:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.nav-link.active {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* Navigation seperator */
+.seperator {
+    position: relative;
+}
+
+#nav-container {
+    background-color: #a2d9ff;
+}
