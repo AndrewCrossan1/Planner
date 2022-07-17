@@ -23,6 +23,5 @@ urlpatterns = [
 ]
 
 # Serve static files and media files (files uploaded by user)
-urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) # Static
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) # Media
-
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)  # Static
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)  # Media
