@@ -24,3 +24,35 @@
 #nav-container {
     background-color: #a2d9ff;
 }
+
+/* Configuring animations for index.html */
+
+.animate__fadeIn#anim1 {
+    animation-delay: 0.5s;
+}
+.animate__fadeIn#anim2 {
+    animation-delay: 1.0s;
+}
+.animate__fadeIn#anim3 {
+    animation-delay: 1.5s;
+}
+.animate__fadeIn#anim4 {
+    animation-delay: 2.0s;
+}
+.animate__fadeIn#anim5 {
+    animation-delay: 2.5s;
+}
+
+.animate__heartBeat#animContainer {
+    animation-delay: 3.0s;
+}
+
+/* Information card CSS */
+
+.info-card {
+    background-color: transparent;
+    border: 1px white solid;
+    color: white;
+    padding: 2px;
+
+}
